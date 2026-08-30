@@ -1,0 +1,13 @@
+{
+  "name": "Python CI (ruff + pytest)",
+  "description": "IMB shared-services standard: lint and format check with ruff, then pytest. Runs on every pull request and on pushes to the default branch.",
+  "categories": [
+    "Python",
+    "Continuous integration"
+  ],
+  "filePatterns": [
+    "pyproject.toml$",
+    "requirements.*\\.txt$",
+    ".*\\.py$"
+  ]
+}

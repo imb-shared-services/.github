@@ -1,0 +1,9 @@
+extends: default
+
+rules:
+  line-length:
+    max: 120
+  document-start: disable
+  truthy:
+    # GitHub Actions uses the bare key `on:`; yamllint's default flags it.
+    check-keys: false

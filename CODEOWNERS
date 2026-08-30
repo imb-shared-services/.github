@@ -1,0 +1,10 @@
+# Review ownership for this repository only.
+# Each repository in the organization carries its own CODEOWNERS.
+# Later rules override earlier ones; the last matching pattern wins.
+
+# Everything here is organization policy — group finance reviews it.
+*                        @imb-shared-services/finance
+
+# CI and automation are owned by group finance as well.
+/.github/workflows/      @imb-shared-services/finance
+/workflow-templates/     @imb-shared-services/finance

@@ -1,0 +1,7 @@
+config:
+  default: true
+  MD013:
+    line_length: 120
+    tables: false
+    code_blocks: false
+  MD041: false  # templates may open with a comment or an h2, not a document title
